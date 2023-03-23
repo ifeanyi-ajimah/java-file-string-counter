@@ -20,7 +20,7 @@ public class Main {
 
         //Check if boolean string is boolean. Else, use true as default
         if(!(boolString.equals("true") || boolString.equals("false"))){
-            System.out.println("Incorrect boolean entered. Application will execute default of \"true\" case-sensitive.");
+            System.out.println("N/B: Incorrect boolean entered. Application will execute default of \"true\"- (case-sensitive) .");
              boolString = "true";
         }
 
